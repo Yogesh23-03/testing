@@ -1,0 +1,27 @@
+# Virtual environment
+env/
+
+.venv/
+
+# Environment variables (NEVER commit this)
+.env
+
+# MLflow local files
+mlruns/
+mlflow.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
